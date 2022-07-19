@@ -1,0 +1,25 @@
+.linksContainer {
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  right: 0;
+  top: 45%;
+}
+.link {
+  text-decoration: none;
+  padding: 8px 13px;
+  margin-right: -85px;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white !important;
+  width: 135px;
+  font-weight: 400;
+}
+.link:hover {
+  margin-left: -78px;
+  border-radius: 10px;
+}

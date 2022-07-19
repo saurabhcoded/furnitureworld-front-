@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "5.2.0-beta1",
+    "bootstrap-icons": "^1.8.3",
     "next": "12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-scroll-motion": "^0.3.0"
   },
   "devDependencies": {
     "eslint": "8.18.0",

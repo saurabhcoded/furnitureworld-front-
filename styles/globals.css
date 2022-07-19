@@ -1,3 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +21,36 @@ a {
 
 * {
   box-sizing: border-box;
+}
+Link {
+  text-decoration: inherit;
+  color: black;
+}
+
+.About {
+  background: url("../assets/backabout.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.aboutImg {
+  border-radius: 10px;
+}
+
+.hero-heading {
+  font-size: 2.3rem;
+}
+.hero-subheading {
+  font-size: 5rem;
+  line-height: 3.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-heading {
+    font-size: 2rem;
+  }
+  .hero-subheading {
+    font-size: 3.5rem;
+    line-height: 2.5rem;
+  }
 }
